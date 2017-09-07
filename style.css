@@ -1,0 +1,122 @@
+body{
+  background-image: url("images/grey-bg.jpg");
+  color:white;
+  font:200 16px/1.5 "American Typewriter";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/*Header Components*/
+#header{
+  
+}
+#name p {
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 5px;
+}
+#degree p {
+  text-align: right;
+  font-size: 15px;
+  padding-right: 300px;
+  margin-top: 1px;
+}
+
+
+/*Buttons*/
+#contentButtons{
+  display: table;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+#buttonLeft{
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  width: 200px;
+  height: 200px;
+  margin-right: 200px;
+  padding-top: 30px;
+}
+#buttonLeft p:hover{
+  border-style: groove;
+  border-color: gray;
+}
+#buttonMiddle{
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  width: 200px;
+  height: 200px;
+  padding-top: 30px;
+}
+#buttonMiddle p:hover{
+  border-style: groove;
+  border-color: gray;
+}
+#buttonRight{
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  width: 200px;
+  height: 200px;
+  margin-left: 200px;
+  padding-top: 30px;
+}
+#buttonRight p:hover{
+  border-style: groove;
+  border-color: gray;
+}
+/*Educational History page*/
+#eduhistorypic{
+  display: inline-block;
+}
+#eduhistorypic img{
+  height:400px;
+  width: 400px;
+  padding-left: 100px;
+}
+#eduhistorytext{
+  display: inline-block;
+  width: 600px;
+  padding-left: 100px;
+}
+
+/*Employment History page*/
+#wrkhistorytext{
+  display: inline-block;
+  width: 600px;
+  padding-right: 100px;
+  padding-left:100px;
+}
+#wrkhistorypic{
+    display: inline-block;
+}
+#wrkhistorypic img {
+  height: 400px;
+  width:  400px;
+  padding-right: 100px;
+}
+
+/*Personal Bio page*/
+#personalbiopic{
+  display: inline-block;
+}
+#personalbiopic img{
+  height:400px;
+  width: 400px;
+  padding-left: 100px;
+}
+#personalbiotext{
+  display: inline-block;
+  width: 600px;
+  padding-left: 100px;
+}

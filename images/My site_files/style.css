@@ -1,0 +1,18 @@
+body{
+  background-image: url("images/grey-bg.jpg");
+  color:white;
+  font:200 16px/1.5 "American Typewriter";
+}
+
+#header{
+  text-align: center;
+}
+#name{
+  font-size: 70px;
+  margin-bottom: 10px;
+
+}
+#degree{
+  font-size: 15px;
+
+}
