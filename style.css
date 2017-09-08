@@ -13,6 +13,10 @@ body{
   display: inline-block;
   padding-left: 300px;
 }
+
+#socialmedia img{
+  padding-right: 15px;
+}
 .icon {
   height:40px;
   width:40px;
@@ -44,9 +48,9 @@ body{
   display: inline-block;
   font-size: 30px;
   text-align: center;
-  border-style: solid;
+/*  border-style: solid;
   border-color: white;
-  border-width: 1px;
+  border-width: 1px;*/
   width: 200px;
   height: 200px;
   margin-right: 200px;
@@ -60,9 +64,9 @@ body{
   display: inline-block;
   font-size: 30px;
   text-align: center;
-  border-style: solid;
+/*  border-style: solid;
   border-color: white;
-  border-width: 1px;
+  border-width: 1px;*/
   width: 200px;
   height: 200px;
   padding-top: 30px;
@@ -75,9 +79,9 @@ body{
   display: inline-block;
   font-size: 30px;
   text-align: center;
-  border-style: solid;
+/*  border-style: solid;
   border-color: white;
-  border-width: 1px;
+  border-width: 1px;*/
   width: 200px;
   height: 200px;
   margin-left: 200px;
@@ -86,6 +90,15 @@ body{
 #buttonRight p:hover{
   border-style: groove;
   border-color: gray;
+}
+#backToTop {
+  position: fixed;
+  right:100px;
+  bottom:10px;
+}
+
+#backToTop p:hover{
+  text-decoration: underline;
 }
 /*Educational History page*/
 #eduhistorypic{
